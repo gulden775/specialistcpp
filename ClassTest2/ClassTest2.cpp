@@ -9,9 +9,18 @@ public:
         //this->x = x;
     }
 
-    int getX(void) {
-        return x;
+    int getX(void) const {return x;}
+    const Test operator+(const Test& rv) const {
+        return *(new Test(x + rv.x));
     }
+    const Test operator = (const Test& rv) {
+        x = rv.x;
+        return *this;
+    }
+
+    //int getX(void) {
+    //    return x;
+    //}
    /* void setX(int x) {
         if (x < 0) x = -x;
         this->x = x;
