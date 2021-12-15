@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTTI_intDemo", "RTTI_intDem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_Template", "Class_Template\Class_Template.vcxproj", "{CAA5E15E-A8A7-4F43-8B4B-A341DB4C7624}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_inheritance", "Test_inheritance\Test_inheritance.vcxproj", "{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,6 +89,14 @@ Global
 		{CAA5E15E-A8A7-4F43-8B4B-A341DB4C7624}.Release|x64.Build.0 = Release|x64
 		{CAA5E15E-A8A7-4F43-8B4B-A341DB4C7624}.Release|x86.ActiveCfg = Release|Win32
 		{CAA5E15E-A8A7-4F43-8B4B-A341DB4C7624}.Release|x86.Build.0 = Release|Win32
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Debug|x64.ActiveCfg = Debug|x64
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Debug|x64.Build.0 = Debug|x64
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Debug|x86.Build.0 = Debug|Win32
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Release|x64.ActiveCfg = Release|x64
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Release|x64.Build.0 = Release|x64
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Release|x86.ActiveCfg = Release|Win32
+		{49BA8D3C-B67F-4678-8FCF-2FB12558FB7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
